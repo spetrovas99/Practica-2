@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 430px;
+  height: 400px;
+  margin-left:  27%;
+}
+
+.botonera{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.botones {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+.botones:hover{
+  background-color: grey;
+}
+.boton0{
+  border: 2px solid black;
+  width: 202px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.boton0:hover{
+  background-color: grey;
+}
+.botonIgual{
+  border: 2px solid black;
+  width: 100px;
+  height: 102px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 2px;
+}
+.botonIgual:hover{
+  background-color: grey;
+}
+.display{
+  background-color: white;
+  border: 2px solid black;
+  width: 430px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  align-items: flex-end;
+}
+
+.displayHistorial{
+  background-color: white;
+  border: 2px solid black;
+  width: 430px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.div1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.div2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.div3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.div4{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 125%;
+  margin-top: -65%;
+}
+.scroll{
+  display:flex;
+  text-align: start;
+  height: fit-content;
+  width: fit-content;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
